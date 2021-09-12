@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7130F5BC26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5BA26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodeld */; };
+		7130F5BF26ECFC4D00B7BB4E /* SavedJokeData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5BD26ECFC4D00B7BB4E /* SavedJokeData+CoreDataClass.swift */; };
+		7130F5C026ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5BE26ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift */; };
+		7130F5C326ED022C00B7BB4E /* CoreDataCRUDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5C226ED022C00B7BB4E /* CoreDataCRUDHelper.swift */; };
+		7130F5C526ED036800B7BB4E /* FavoriteTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5C426ED036800B7BB4E /* FavoriteTabCell.swift */; };
 		71A94F3026EC15E00062DF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F2F26EC15E00062DF83 /* AppDelegate.swift */; };
 		71A94F3226EC15E00062DF83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F3126EC15E00062DF83 /* SceneDelegate.swift */; };
-		71A94F3426EC15E00062DF83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F3326EC15E00062DF83 /* ViewController.swift */; };
-		71A94F3726EC15E00062DF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A94F3526EC15E00062DF83 /* Main.storyboard */; };
+		71A94F3426EC15E00062DF83 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F3326EC15E00062DF83 /* MainTabController.swift */; };
 		71A94F3926EC15E20062DF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A94F3826EC15E20062DF83 /* Assets.xcassets */; };
 		71A94F3C26EC15E20062DF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A94F3A26EC15E20062DF83 /* LaunchScreen.storyboard */; };
+		71A94F4B26EC16CA0062DF83 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F4A26EC16CA0062DF83 /* Joke.swift */; };
+		71A94F4D26EC175C0062DF83 /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F4C26EC175C0062DF83 /* HomeTabController.swift */; };
+		71A94F4F26EC176A0062DF83 /* FavoriteTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F4E26EC176A0062DF83 /* FavoriteTabController.swift */; };
+		71A94F5126EC17B00062DF83 /* JokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F5026EC17B00062DF83 /* JokeAPI.swift */; };
+		71A94F5326EC17D10062DF83 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F5226EC17D10062DF83 /* UIColor.swift */; };
+		71A94F5526EC18180062DF83 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F5426EC18180062DF83 /* HomeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7130F5BB26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		7130F5BD26ECFC4D00B7BB4E /* SavedJokeData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedJokeData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7130F5BE26ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedJokeData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7130F5C226ED022C00B7BB4E /* CoreDataCRUDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCRUDHelper.swift; sourceTree = "<group>"; };
+		7130F5C426ED036800B7BB4E /* FavoriteTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabCell.swift; sourceTree = "<group>"; };
 		71A94F2C26EC15E00062DF83 /* FunnyDadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyDadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A94F2F26EC15E00062DF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A94F3126EC15E00062DF83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71A94F3326EC15E00062DF83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71A94F3626EC15E00062DF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A94F3326EC15E00062DF83 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		71A94F3826EC15E20062DF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A94F3B26EC15E20062DF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A94F3D26EC15E20062DF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A94F4A26EC16CA0062DF83 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		71A94F4C26EC175C0062DF83 /* HomeTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
+		71A94F4E26EC176A0062DF83 /* FavoriteTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabController.swift; sourceTree = "<group>"; };
+		71A94F5026EC17B00062DF83 /* JokeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeAPI.swift; sourceTree = "<group>"; };
+		71A94F5226EC17D10062DF83 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		71A94F5426EC18180062DF83 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7130F5C126ECFC5F00B7BB4E /* SavedJokeCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7130F5BD26ECFC4D00B7BB4E /* SavedJokeData+CoreDataClass.swift */,
+				7130F5BE26ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift */,
+				7130F5BA26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodeld */,
+			);
+			path = SavedJokeCoreData;
+			sourceTree = "<group>";
+		};
 		71A94F2326EC15DF0062DF83 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +86,79 @@
 		71A94F2E26EC15E00062DF83 /* FunnyDadJokes */ = {
 			isa = PBXGroup;
 			children = (
-				71A94F2F26EC15E00062DF83 /* AppDelegate.swift */,
-				71A94F3126EC15E00062DF83 /* SceneDelegate.swift */,
-				71A94F3326EC15E00062DF83 /* ViewController.swift */,
-				71A94F3526EC15E00062DF83 /* Main.storyboard */,
-				71A94F3826EC15E20062DF83 /* Assets.xcassets */,
-				71A94F3A26EC15E20062DF83 /* LaunchScreen.storyboard */,
+				71A94F4326EC16070062DF83 /* Models */,
+				7130F5C126ECFC5F00B7BB4E /* SavedJokeCoreData */,
+				71A94F4426EC16230062DF83 /* Views */,
+				71A94F4526EC16260062DF83 /* Controllers */,
+				71A94F4726EC16310062DF83 /* API */,
+				71A94F4826EC16350062DF83 /* Extensions */,
+				71A94F4626EC162C0062DF83 /* Utils */,
+				71A94F4926EC16390062DF83 /* Resources */,
 				71A94F3D26EC15E20062DF83 /* Info.plist */,
 			);
 			path = FunnyDadJokes;
+			sourceTree = "<group>";
+		};
+		71A94F4326EC16070062DF83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71A94F4A26EC16CA0062DF83 /* Joke.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71A94F4426EC16230062DF83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71A94F5426EC18180062DF83 /* HomeTabView.swift */,
+				7130F5C426ED036800B7BB4E /* FavoriteTabCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71A94F4526EC16260062DF83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71A94F3326EC15E00062DF83 /* MainTabController.swift */,
+				71A94F4C26EC175C0062DF83 /* HomeTabController.swift */,
+				71A94F4E26EC176A0062DF83 /* FavoriteTabController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71A94F4626EC162C0062DF83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7130F5C226ED022C00B7BB4E /* CoreDataCRUDHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		71A94F4726EC16310062DF83 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				71A94F5026EC17B00062DF83 /* JokeAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		71A94F4826EC16350062DF83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71A94F5226EC17D10062DF83 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		71A94F4926EC16390062DF83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71A94F2F26EC15E00062DF83 /* AppDelegate.swift */,
+				71A94F3126EC15E00062DF83 /* SceneDelegate.swift */,
+				71A94F3826EC15E20062DF83 /* Assets.xcassets */,
+				71A94F3A26EC15E20062DF83 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +220,6 @@
 			files = (
 				71A94F3C26EC15E20062DF83 /* LaunchScreen.storyboard in Resources */,
 				71A94F3926EC15E20062DF83 /* Assets.xcassets in Resources */,
-				71A94F3726EC15E00062DF83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +230,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A94F3426EC15E00062DF83 /* ViewController.swift in Sources */,
+				71A94F3426EC15E00062DF83 /* MainTabController.swift in Sources */,
 				71A94F3026EC15E00062DF83 /* AppDelegate.swift in Sources */,
+				71A94F4B26EC16CA0062DF83 /* Joke.swift in Sources */,
+				71A94F5526EC18180062DF83 /* HomeTabView.swift in Sources */,
+				7130F5C326ED022C00B7BB4E /* CoreDataCRUDHelper.swift in Sources */,
+				7130F5BC26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodeld in Sources */,
+				71A94F5126EC17B00062DF83 /* JokeAPI.swift in Sources */,
+				7130F5BF26ECFC4D00B7BB4E /* SavedJokeData+CoreDataClass.swift in Sources */,
+				71A94F4F26EC176A0062DF83 /* FavoriteTabController.swift in Sources */,
+				71A94F5326EC17D10062DF83 /* UIColor.swift in Sources */,
 				71A94F3226EC15E00062DF83 /* SceneDelegate.swift in Sources */,
+				7130F5C026ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift in Sources */,
+				71A94F4D26EC175C0062DF83 /* HomeTabController.swift in Sources */,
+				7130F5C526ED036800B7BB4E /* FavoriteTabCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71A94F3526EC15E00062DF83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71A94F3626EC15E00062DF83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71A94F3A26EC15E20062DF83 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,14 +385,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YBZMY79767;
 				INFOPLIST_FILE = FunnyDadJokes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.heangdev.FunnyDadJokes;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heangdev.Funny-Dad-Jokes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +405,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YBZMY79767;
 				INFOPLIST_FILE = FunnyDadJokes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.heangdev.FunnyDadJokes;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heangdev.Funny-Dad-Jokes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +439,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7130F5BA26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7130F5BB26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 7130F5BB26ECFB4C00B7BB4E /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 71A94F2426EC15DF0062DF83 /* Project object */;
 }

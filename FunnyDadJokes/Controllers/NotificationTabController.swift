@@ -34,8 +34,9 @@ class NotificationTabController: UIViewController {
             let ac = UIAlertController(title: "Daily Joke Notification", message: "You have set to get daily joke notification at \(hour):\(minute)", preferredStyle: .alert)
             ac.addAction(UIAlertAction(title: "ok", style: .default))
             self.present(ac, animated: true)
+            HapticFeedback.success()
         }
-        HapticFeedback.success()
+      
     }
 
     func register(completion: @escaping(Bool) -> Void) {

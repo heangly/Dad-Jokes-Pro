@@ -12,6 +12,10 @@
 		7130F5C026ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5BE26ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift */; };
 		7130F5C326ED022C00B7BB4E /* CoreDataCRUDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5C226ED022C00B7BB4E /* CoreDataCRUDHelper.swift */; };
 		7130F5C526ED036800B7BB4E /* FavoriteTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130F5C426ED036800B7BB4E /* FavoriteTabCell.swift */; };
+		7186CB0526EE26DC00ABDC84 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186CB0426EE26DC00ABDC84 /* HapticFeedback.swift */; };
+		7186CB0726EE900C00ABDC84 /* NotificationTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186CB0626EE900C00ABDC84 /* NotificationTabController.swift */; };
+		7186CB0926EE919000ABDC84 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186CB0826EE919000ABDC84 /* NotificationHelper.swift */; };
+		7186CB0B26EE9DB300ABDC84 /* NotificationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186CB0A26EE9DB300ABDC84 /* NotificationTabView.swift */; };
 		71A94F3026EC15E00062DF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F2F26EC15E00062DF83 /* AppDelegate.swift */; };
 		71A94F3226EC15E00062DF83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F3126EC15E00062DF83 /* SceneDelegate.swift */; };
 		71A94F3426EC15E00062DF83 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94F3326EC15E00062DF83 /* MainTabController.swift */; };
@@ -31,6 +35,10 @@
 		7130F5BE26ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedJokeData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7130F5C226ED022C00B7BB4E /* CoreDataCRUDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCRUDHelper.swift; sourceTree = "<group>"; };
 		7130F5C426ED036800B7BB4E /* FavoriteTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabCell.swift; sourceTree = "<group>"; };
+		7186CB0426EE26DC00ABDC84 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		7186CB0626EE900C00ABDC84 /* NotificationTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTabController.swift; sourceTree = "<group>"; };
+		7186CB0826EE919000ABDC84 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		7186CB0A26EE9DB300ABDC84 /* NotificationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTabView.swift; sourceTree = "<group>"; };
 		71A94F2C26EC15E00062DF83 /* FunnyDadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyDadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A94F2F26EC15E00062DF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A94F3126EC15E00062DF83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 			children = (
 				71A94F5426EC18180062DF83 /* HomeTabView.swift */,
 				7130F5C426ED036800B7BB4E /* FavoriteTabCell.swift */,
+				7186CB0A26EE9DB300ABDC84 /* NotificationTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 				71A94F3326EC15E00062DF83 /* MainTabController.swift */,
 				71A94F4C26EC175C0062DF83 /* HomeTabController.swift */,
 				71A94F4E26EC176A0062DF83 /* FavoriteTabController.swift */,
+				7186CB0626EE900C00ABDC84 /* NotificationTabController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -130,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				7130F5C226ED022C00B7BB4E /* CoreDataCRUDHelper.swift */,
+				7186CB0426EE26DC00ABDC84 /* HapticFeedback.swift */,
+				7186CB0826EE919000ABDC84 /* NotificationHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -231,7 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A94F3426EC15E00062DF83 /* MainTabController.swift in Sources */,
+				7186CB0B26EE9DB300ABDC84 /* NotificationTabView.swift in Sources */,
+				7186CB0926EE919000ABDC84 /* NotificationHelper.swift in Sources */,
 				71A94F3026EC15E00062DF83 /* AppDelegate.swift in Sources */,
+				7186CB0526EE26DC00ABDC84 /* HapticFeedback.swift in Sources */,
 				71A94F4B26EC16CA0062DF83 /* Joke.swift in Sources */,
 				71A94F5526EC18180062DF83 /* HomeTabView.swift in Sources */,
 				7130F5C326ED022C00B7BB4E /* CoreDataCRUDHelper.swift in Sources */,
@@ -241,6 +256,7 @@
 				71A94F4F26EC176A0062DF83 /* FavoriteTabController.swift in Sources */,
 				71A94F5326EC17D10062DF83 /* UIColor.swift in Sources */,
 				71A94F3226EC15E00062DF83 /* SceneDelegate.swift in Sources */,
+				7186CB0726EE900C00ABDC84 /* NotificationTabController.swift in Sources */,
 				7130F5C026ECFC4D00B7BB4E /* SavedJokeData+CoreDataProperties.swift in Sources */,
 				71A94F4D26EC175C0062DF83 /* HomeTabController.swift in Sources */,
 				7130F5C526ED036800B7BB4E /* FavoriteTabCell.swift in Sources */,
@@ -382,16 +398,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YBZMY79767;
+				DEVELOPMENT_TEAM = S8NCK46NU5;
 				INFOPLIST_FILE = FunnyDadJokes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.heangdev.Funny-Dad-Jokes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heangdev.DadJokesPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -402,16 +420,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YBZMY79767;
+				DEVELOPMENT_TEAM = S8NCK46NU5;
 				INFOPLIST_FILE = FunnyDadJokes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.heangdev.Funny-Dad-Jokes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heangdev.DadJokesPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

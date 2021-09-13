@@ -108,12 +108,12 @@ class HomeTabView: UIView {
 
         let constraints = [
             titleImageView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            titleImageView.topAnchor.constraint(equalTo: layout.topAnchor, constant: 10),
+            titleImageView.topAnchor.constraint(equalTo: layout.topAnchor, constant: 20),
             titleImageView.heightAnchor.constraint(equalToConstant: 80),
             titleImageView.widthAnchor.constraint(equalToConstant: 80),
 
-            jokeResultViewContainer.heightAnchor.constraint(greaterThanOrEqualToConstant: 450),
-            jokeResultViewContainer.topAnchor.constraint(equalTo: titleImageView.bottomAnchor, constant: 15),
+            jokeResultViewContainer.topAnchor.constraint(equalTo: titleImageView.bottomAnchor, constant: 20),
+            jokeResultViewContainer.bottomAnchor.constraint(equalTo: getJokeButton.topAnchor, constant: -20),
             jokeResultViewContainer.leftAnchor.constraint(equalTo: layout.leftAnchor, constant: 20),
             jokeResultViewContainer.rightAnchor.constraint(equalTo: layout.rightAnchor, constant: -20),
 

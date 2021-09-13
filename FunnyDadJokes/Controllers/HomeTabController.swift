@@ -50,6 +50,8 @@ class HomeTabController: UIViewController, HomeTabViewDelegate {
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "ok", style: .default))
         present(ac, animated: true)
+        
+        success ? HapticFeedback.success() : HapticFeedback.error()
     }
 }
 
@@ -63,12 +65,14 @@ extension HomeTabController {
             DispatchQueue.main.async {
                 self.currentJoke = data
                 jokeResultLabel.text = self.currentJoke?.joke
+                HapticFeedback.selectionChanged()
             }
 
         }
     }
 
     func didTapSaveJoke(_ view: HomeTabView) {
+        HapticFeedback.selectionChanged()
         let ac = UIAlertController(title: "Save This Joke?", message: nil, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         ac.addAction(UIAlertAction(title: "Save", style: .default, handler: { [weak self] _ in

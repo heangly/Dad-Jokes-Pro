@@ -31,7 +31,4 @@ class FavoriteTabCell: UITableViewCell {
         layer.borderColor = UIColor.mainGold.cgColor
         layer.borderWidth = 2
     }
-
-
-
 }

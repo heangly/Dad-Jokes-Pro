@@ -9,9 +9,9 @@ import UIKit
 import CoreData
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = .mainGold
         appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
@@ -22,10 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().compactAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
-                
+
         UIApplication.shared.statusBarStyle = .darkContent
+
         return true
     }
+
 
     // MARK: UISceneSession Lifecycle
 
@@ -51,9 +53,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         return container
     }()
-    
+
     //MARK: - Core data saving support
-    func saveContext(){
+    func saveContext() {
         let context = persistentContainer.viewContext
         if context.hasChanges {
             do {

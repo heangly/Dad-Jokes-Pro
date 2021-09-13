@@ -56,6 +56,7 @@ class FavoriteTabController: UITableViewController {
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "ok", style: .default))
         present(ac, animated: true)
+        success ? HapticFeedback.success() : HapticFeedback.error()
     }
 
     @objc func addNewJoke() {
@@ -90,6 +91,7 @@ extension FavoriteTabController {
 //MARK: - UITableview Delegate
 extension FavoriteTabController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        HapticFeedback.selectionChangedLight()
         if editingStyle == .delete {
             CoreDataCRUDHelper.deleteJoke(joke: models[indexPath.row])
             models.remove(at: indexPath.row)
